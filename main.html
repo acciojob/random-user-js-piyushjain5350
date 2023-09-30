@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random user JS</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="user">
+        <img id="photo" src="https://inspirationseek.com/wp-content/uploads/2016/02/Cute-Dog-Images.jpg" alt="User photo">
+        <h1 id="name"></h1>
+      </div>
+      <div>
+        <button data-attr="age">Age</button>
+        <button data-attr="email">Email</button>
+        <button data-attr="phone">Phone</button>
+      </div>
+      <div class="info">
+        <p id="infoText"></p>
+      </div>
+      <button id="getUser">Get new user</button>
+    <script src="script.js"></script>
 </body>
-
 </html>

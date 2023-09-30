@@ -1,2 +1,29 @@
-
-/* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+  }
+  .user {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .user img {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .user h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  .info {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .info p {
+    margin: 0;
+    font-size: 18px;
+  }
